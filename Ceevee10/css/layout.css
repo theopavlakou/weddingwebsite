@@ -94,8 +94,8 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a { color: #ffffff; }
+header .social li a:hover { color: #98ffcc; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -933,8 +933,8 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #ffffff; }
+footer a:hover, footer a:focus { color: #98ffcc; }
 
 /* copyright */
 footer .copyright {
