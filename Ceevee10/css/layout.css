@@ -27,7 +27,6 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
 header {
    position: relative;
    height: 800px;
@@ -62,7 +61,7 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 2px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -122,6 +121,7 @@ header .scrolldown a:hover { color: #ffff98; }
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+  /* Change this to make the nav bar fatter/thinner*/
 	 margin: 0;
 	 padding: 0;
 	 border: none;
@@ -130,10 +130,10 @@ header .scrolldown a:hover { color: #ffff98; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 13px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
-   letter-spacing: 2.5px;
+   letter-spacing: 2px;
    margin: 0 auto;
    z-index: 100;
    position: fixed;
@@ -954,7 +954,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #ffffff;
 }
 footer .copyright  li:first-child:before {
     display: none;
