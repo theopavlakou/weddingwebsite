@@ -17,6 +17,9 @@ def start_body():
 def end_body():
     return("</body>")
 
+def add_link(the_title, the_link, the_text):
+    return('<a class="smoothscroll" title=' + the_title + ' href='+ the_link+'>' + the_text + '</a>')
+
 def include_section(the_number_columns, the_title, the_content):
     with open('templates/section.html') as sectionf:
         section_text = sectionf.read()
