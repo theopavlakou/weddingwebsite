@@ -185,19 +185,40 @@
       <script>
       function validateForm() {
          var formObject = document.forms["rsvp_form"];
+         var valid = true;
          firstName = formObject["firstname"].value
          surname = formObject["surname"].value
          email = formObject["email"].value
          tel = formObject["tel"].value
+         
+         if (firstName == "" || firstName == null) {
+            document.getElementById("firstname").value = "Please enter a value here" 
+            document.getElementById("firstname").style.color = "red"
 
-         if (firstName == "" || firstName == null ||
-            surname == "" || surname == null ||
-            email == "" || email == null ||
-            tel == "" || tel == null) {
-            return false;
+            valid = false;  
+         }
+
+         if (surname == "" || surname == null) {        
+            document.getElementById("surname").value = "Please enter a value here" 
+            document.getElementById("surname").style.color = "red"
+            valid = false;  
+         }
+
+         if (email == "" || email == null) {
+            document.getElementById("email").value = "Please enter a value here" 
+            document.getElementById("email").style.color = "red"
+
+            valid = false;
+         }
+         
+         if (tel == "" || tel == null) {
+            document.getElementById("tel").value = "Please enter a value here" 
+            document.getElementById("tel").style.color = "red"
+
+            valid = false;   
          }
          // Put a regex for email address as well
-         return true;
+         return valid;
       }
       </script>
 
@@ -208,10 +229,10 @@
             <!-- Must add script here-->
             <div class="six columns add-bottom">
                <form name="rsvp_form" action="cgi-bin/rsvp_handler.py" method="post" onsubmit="return validateForm()">
-                  First Name: <input type="text" name="firstname">
-                  Surname: <input type="text" name="surname">
-                  Email: <input type="text" name="email">
-                  Tel: <input type="text" name="tel">
+                  First Name: <input type="text" name="firstname" id="firstname">
+                  Surname: <input type="text" name="surname" id="surname">
+                  Email: <input type="text" name="email" id="email">
+                  Tel: <input type="text" name="tel" id="tel">
                   <input type="submit" value="Count me in!">
                </form>
             </div>
@@ -240,6 +261,8 @@
          - What to do in Cyprus
          - Places to stay
    -->
+
+
    <!--
    <section id="rsvp" style="padding: 90 px 0 72px; background: #fff;">
       <div class="row add-bottom">
