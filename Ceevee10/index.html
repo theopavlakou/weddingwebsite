@@ -183,41 +183,34 @@
       <!-- RSVP -->
       <!-- Check if all inputs have been entered correctly -->
       <script>
+      function isValidText(text_input, element_id) {
+         if (text_input == "" || text_input == null) {
+            document.getElementById(element_id).value = "Please enter a value here";
+            document.getElementById(element_id).style.color = "red"; 
+            return false;
+         } 
+         return true;
+      }
+
       function validateForm() {
          var formObject = document.forms["rsvp_form"];
          var valid = true;
+
          firstName = formObject["firstname"].value
          surname = formObject["surname"].value
          email = formObject["email"].value
          tel = formObject["tel"].value
+
+         validFn = isValidText(firstName, "firstname")
+         validSn = isValidText(surname, "surname")
+         validEmail = isValidText(email, "email") 
+         validTel = isValidText(tel, "tel")
+
+         valid = validFn && 
+                  validSn &&
+                  validEmail &&
+                  validTel
          
-         if (firstName == "" || firstName == null) {
-            document.getElementById("firstname").value = "Please enter a value here" 
-            document.getElementById("firstname").style.color = "red"
-
-            valid = false;  
-         }
-
-         if (surname == "" || surname == null) {        
-            document.getElementById("surname").value = "Please enter a value here" 
-            document.getElementById("surname").style.color = "red"
-            valid = false;  
-         }
-
-         if (email == "" || email == null) {
-            document.getElementById("email").value = "Please enter a value here" 
-            document.getElementById("email").style.color = "red"
-
-            valid = false;
-         }
-         
-         if (tel == "" || tel == null) {
-            document.getElementById("tel").value = "Please enter a value here" 
-            document.getElementById("tel").style.color = "red"
-
-            valid = false;   
-         }
-         // Put a regex for email address as well
          return valid;
       }
       </script>
