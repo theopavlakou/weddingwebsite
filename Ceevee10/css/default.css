@@ -451,6 +451,7 @@ dd { margin: 0 0 0 20px; }
 img {
    max-width: 100%;
    height: auto;
+   z-index: 1;
 }
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
@@ -524,7 +525,32 @@ input::-moz-focus-inner {
     padding: 0;
 }
 
+.text-over-image {
+   position: absolute;
+   top: 100px;
+   color:#f00;
+   background-color:#ffffff;
+   width: 100px;
+   height: 100px;
+   line-height:100px;
+   text-align: center;
+   z-index: 10;
+   opacity: 0;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+.text-over-image:hover {
+    opacity:100;
+}
 
+.wrapper {
+    position: relative;
+    padding: 0;
+    width:100px;
+    display:block;
+}
 /*  7. Forms  --------------------------------------------------------- */
 
 form { margin-bottom: 24px; }
