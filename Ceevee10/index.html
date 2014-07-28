@@ -188,9 +188,28 @@
             document.getElementById(element_id).value = "Please enter a value here";
             document.getElementById(element_id).style.color = "red"; 
             return false;
-         } 
+         } else {
+            document.getElementById(element_id).style.color = "#647373";
+         }
          return true;
       }
+
+      // validate the email
+      function isValidEmail(email_input, email_id) { 
+         if(!isValidText(email_input, email_id)) {
+            return false;
+         }
+         
+         var re = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/ ;
+
+         if (!re.test(email_input)) {
+            document.getElementById(email_id).value = "Enter valid email";
+            document.getElementById(email_id).style.color = "red"; 
+            return false;            
+         } 
+
+         return true;
+      } 
 
       function validateForm() {
          var formObject = document.forms["rsvp_form"];
@@ -201,15 +220,24 @@
          email = formObject["email"].value
          tel = formObject["tel"].value
 
-         validFn = isValidText(firstName, "firstname")
-         validSn = isValidText(surname, "surname")
-         validEmail = isValidText(email, "email") 
-         validTel = isValidText(tel, "tel")
+         try {
+            validFn = isValidText(firstName, "firstname")
+            validSn = isValidText(surname, "surname")
+            validTel = isValidText(tel, "tel")
+            validEmail = isValidEmail(email, "email")
 
-         valid = validFn && 
+         } catch (err) {
+            document.write(err.message);
+         }
+
+         try {
+            valid = validFn && 
                   validSn &&
                   validEmail &&
                   validTel
+         } catch (err) {
+            document.write(err.message);
+         }
          
          return valid;
       }
