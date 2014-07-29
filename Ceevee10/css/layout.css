@@ -119,10 +119,15 @@ header .scrolldown a {
 header .scrolldown a:hover { color: #A9F7EF; }
 
 section{
-  background: #fff url(../images/bg-section.JPG) repeat-x scroll 0 ;
-  padding: 110px 0 50px;
-  position:relative;
+  background: url(../images/holding_hands.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
+
+
 /* primary navigation
 --------------------------------------------------------------------- */
 
