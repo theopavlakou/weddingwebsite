@@ -466,7 +466,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #98ffcc;
+   background: #53c0a0;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -477,11 +477,11 @@ input[type="button"] {
    cursor: pointer;
    height: auto;
 
-   -webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	-ms-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+   -webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 
    -moz-border-radius: 3px;
    -webkit-border-radius: 3px;
@@ -495,7 +495,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #ffff98;
+   background: #a9f7dc;
    color: #fff;
 }
 
@@ -504,7 +504,7 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-   background: #ffff98;
+   background: #a9f7dc;
    color: #fff;
 }
 

@@ -204,7 +204,7 @@ ul#nav li a {
    line-height: 32px;
 	 text-decoration: none;
    text-align: left;
-   color: #63f0c0;
+   color: #53c0a0;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -1001,18 +1001,18 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #98ffcc;
+	background-color: #53c0a0;
 
-	-webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+   -moz-transition: all 0.25s ease-in-out;
+   -o-transition: all 0.25s ease-in-out;
+   -ms-transition: all 0.25s ease-in-out;
+   transition: all 0.25s ease-in-out;
 
    color: #fff;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #ffff98; }
+#go-top a:hover { background-color: #a9f7dc; }
 
