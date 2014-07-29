@@ -118,14 +118,15 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #A9F7EF; }
 
-/* section with background image
+/* Section with background image
 --------------------------------------------------------------------- */
-section{
+section {
   background: url(../images/holding_hands.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 
 }
 
@@ -143,7 +144,7 @@ section{
 }
 
 #header-nav .wrap {
-  background: none repeat scroll 0 0 #FFFFFF;
+  /*background: none repeat scroll 0 0 #FFFFFF;*/
   width: auto;
 }
 
