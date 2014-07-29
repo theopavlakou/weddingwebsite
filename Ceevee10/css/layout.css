@@ -118,6 +118,8 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #A9F7EF; }
 
+/* section with background image
+--------------------------------------------------------------------- */
 section{
   background: url(../images/holding_hands.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -173,7 +175,7 @@ section{
    left: 0;
    top: 0;
 }
-.opaque { background-color: #fff; }
+.opaque { background-color: #a9f7dc; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -200,9 +202,9 @@ ul#nav li a {
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
-	text-decoration: none;
+	 text-decoration: none;
    text-align: left;
-   color: #000;
+   color: #63f0c0;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -212,7 +214,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #A9F7EF; }
+ul#nav li.current a { color: #f1fef9; }
 
 
 /* ------------------------------------------------------------------ */
