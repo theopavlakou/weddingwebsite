@@ -126,7 +126,7 @@ section {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
 
 }
 
@@ -941,6 +941,12 @@ footer {
    padding-top: 48px;
    margin-bottom: 48px;
    color: #303030;
+    /* TODO Add background image fixed like background in main text*/
+    /*background: url(../images/koupes.jpg) no-repeat left bottom fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
    font-size: 14px;
    text-align: center;
    position: relative;
@@ -993,8 +999,8 @@ footer .social-links li:first-child { margin-left: 0; }
 #go-top {
 	position: absolute;
 	top: -24px;
-   left: 50%;
-   margin-left: -30px;
+  left: 50%;
+  margin-left: -30px;
 }
 #go-top a {
 	text-decoration: none;
@@ -1010,9 +1016,9 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.25s ease-in-out;
    transition: all 0.25s ease-in-out;
 
-   color: #fff;
-   font-size: 21px;
-   line-height: 60px;
+  color: #fff;
+  font-size: 21px;
+  line-height: 60px;
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #a9f7dc; }
