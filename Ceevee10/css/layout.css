@@ -996,6 +996,31 @@ footer .social-links li {
 
 footer .social-links li:first-child { margin-left: 0; }
 
+/* Image hover stuff */
+.theo-hover {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/Theo_Profile.jpeg');
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;  
+}
+
+.theo-hover:hover {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url('../images/Pamela_Profile.JPG');
+  background-position: center center;
+  background-size: cover;
+
+}
+
 /* Go To Top Button */
 #go-top {
 	position: absolute;
