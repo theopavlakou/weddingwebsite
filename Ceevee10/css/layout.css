@@ -121,7 +121,8 @@ header .scrolldown a:hover { color: #A9F7EF; }
 /* Section with background image
 --------------------------------------------------------------------- */
 section {
-  background: url(../images/holding_hands.jpg) no-repeat center center fixed; 
+  /*background: url(../images/holding_hands.jpg) no-repeat center center fixed; */
+  background: url(../images/background_theo_pamela.png) no-repeat bottom left fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
