@@ -12,8 +12,15 @@ var presentImageBeach = 0;
 function alterImageBeaches(alter) { 
    presentImageBeach += alter; 
    try {
-      document.getElementById('image_ss_beaches').src = imageBeach[presentImageBeach%numberImagesBeach];
-      document.getElementById('image_title_beaches').innerHTML = imageTitleBeach[presentImageBeach%numberImagesBeach];
+   		imageIndexBeach = 0;
+   	   	if(presentImageBeach < 0) {
+   			imageIndexBeach = -1 * presentImageBeach;
+   		} else {
+   			imageIndexBeach = presentImageBeach;
+
+   		}
+      	document.getElementById('image_ss_beaches').src = imageBeach[imageIndexBeach%numberImagesBeach];
+      	document.getElementById('image_title_beaches').innerHTML = imageTitleBeach[imageIndexBeach%numberImagesBeach];
    } catch (err) {
       //document.write(err)
    }

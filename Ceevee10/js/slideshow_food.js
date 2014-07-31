@@ -14,8 +14,14 @@ var presentImageFood = 0;
 function alterImageFood(alter) { 
    presentImageFood += alter; 
    try {
-      document.getElementById('image_ss_food').src = imageFood[presentImageFood%numberImagesFood];
-      document.getElementById('image_title_food').innerHTML = imageTitleFood[presentImageFood%numberImagesFood];
+   		imageIndexFood = 0;
+   		if(presentImageFood < 0) {
+   			imageIndexFood = -1 * presentImageFood;
+   		} else {
+   			imageIndexFood = presentImageFood;
+   		}
+      	document.getElementById('image_ss_food').src = imageFood[imageIndexFood%numberImagesFood];
+      	document.getElementById('image_title_food').innerHTML = imageTitleFood[imageIndexFood%numberImagesFood];
    } catch (err) {
       //document.write(err)
    }
