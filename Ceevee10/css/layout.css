@@ -996,7 +996,7 @@ footer .social-links li {
 
 footer .social-links li:first-child { margin-left: 0; }
 
-/* Image hover stuff */
+/* Image rollover stuff */
 .theo-hover {
   display: block;
   width: 100%;
