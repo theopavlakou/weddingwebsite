@@ -94,7 +94,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #ffffff; }
-header .social li a:hover { color: #98ffcc; }
+header .social li a:hover { color: #A9F7EF; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -102,13 +102,12 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #98ffcc;
+   color: #53c0a0;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #000;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
