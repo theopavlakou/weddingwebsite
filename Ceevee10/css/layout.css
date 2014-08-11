@@ -122,6 +122,7 @@ header .scrolldown a:hover { color: #A9F7EF; }
 section {
   /*background: url(../images/holding_hands.jpg) no-repeat center center fixed; */
   background: url(../images/background_theo_pamela_3.png) no-repeat bottom left fixed; 
+  /*background: url(../images/background_trial.JPG) no-repeat bottom right fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -996,11 +997,35 @@ footer .social-links li {
 footer .social-links li:first-child { margin-left: 0; }
 
 /* Image rollover stuff */
+.pamela-hover {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url('../images/pamela_before_hover.JPG');
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;  
+}
+
+.pamela-hover:hover {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background: url('../images/pamela_hover.JPG');
+  background-position: center center;
+  background-size: cover;
+
+}
+
 .theo-hover {
   display: block;
   width: 100%;
   height: 400px;
-  background-image: url('../images/Theo_Profile.jpeg');
+  background-image: url('../images/theo_before_hover2.JPG');
   background-position: center center;
   background-size: cover;
   -webkit-transition: all 0.5s ease-in-out;
@@ -1014,12 +1039,11 @@ footer .social-links li:first-child { margin-left: 0; }
   display: block;
   width: 100%;
   height: 400px;
-  background: url('../images/Pamela_Profile.JPG');
+  background: url('../images/theo_hover2.JPG');
   background-position: center center;
   background-size: cover;
 
 }
-
 /* Go To Top Button */
 #go-top {
 	position: absolute;
