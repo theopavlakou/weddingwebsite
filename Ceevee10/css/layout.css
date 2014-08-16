@@ -1001,45 +1001,45 @@ footer .social-links li:first-child { margin-left: 0; }
   display: block;
   width: 100%;
   height: 400px;
-  background-image: url('../images/pamela_before_hover.JPG');
+  background-image: url('../images/pamela_before_hover_small.JPG');
   background-position: center center;
   background-size: cover;
-  -webkit-transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-   -o-transition: all 0.5s ease-in-out;
-   -ms-transition: all 0.5s ease-in-out;
-   transition: all 0.5s ease-in-out;  
+  -webkit-transition: all 0.25s ease-in-out;
+   -moz-transition: all 0.25s ease-in-out;
+   -o-transition: all 0.25s ease-in-out;
+   -ms-transition: all 0.25s ease-in-out;
+   transition: all 0.25s ease-in-out;  
 }
 
 .pamela-hover:hover {
   display: block;
   width: 100%;
   height: 400px;
-  background: url('../images/pamela_hover.JPG');
+  background: url('../images/pamela_hover_small.JPG');
   background-position: center center;
   background-size: cover;
 
 }
-
+/* TODO Compress the images and make sprites possibly */
 .theo-hover {
   display: block;
   width: 100%;
   height: 400px;
-  background-image: url('../images/theo_before_hover2.JPG');
+  background-image: url('../images/theo_before_hover_small.JPG');
   background-position: center center;
   background-size: cover;
-  -webkit-transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-   -o-transition: all 0.5s ease-in-out;
-   -ms-transition: all 0.5s ease-in-out;
-   transition: all 0.5s ease-in-out;  
+  -webkit-transition: all 0.25s ease-in-out;
+   -moz-transition: all 0.25s ease-in-out;
+   -o-transition: all 0.25s ease-in-out;
+   -ms-transition: all 0.25s ease-in-out;
+   transition: all 0.25s ease-in-out;  
 }
 
 .theo-hover:hover {
   display: block;
   width: 100%;
   height: 400px;
-  background: url('../images/theo_hover2.JPG');
+  background: url('../images/theo_hover_small.JPG');
   background-position: center center;
   background-size: cover;
 
