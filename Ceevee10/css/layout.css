@@ -57,14 +57,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 100px/1.1em 'economica-bold', sans-serif;
    color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   letter-spacing: -1px;
+   margin: 0 auto 1px auto;
    text-shadow: 2px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 26px/1.9em 'dancingscript', sans-serif;
    color: #FFFFFF;
    margin: 0 auto;
    width: 70%;
@@ -76,7 +76,7 @@ header .banner-text h3 a {
 }
 header .banner-text hr {
    width: 60%;
-   margin: 18px auto 24px auto;
+   margin: 1px auto 2px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
