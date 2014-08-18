@@ -177,12 +177,13 @@ h2 { font-size: 28px; line-height: 36px; margin-bottom: 1px; }
 h3 { font-size: 22px; line-height: 30px; margin-bottom: 1px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 1px; }
 h5 { font-size: 18px; line-height: 30px; }
-h6 { font-size: 14px; line-height: 30px; }
+h6 { font-size: 16px; line-height: 30px; }
 
 h5.fancy {
    font-family: 'dancingscript';
    font-size: 25px;
 }
+
 .subheader { }
 
 p { margin: 0 0 5px 0; }
