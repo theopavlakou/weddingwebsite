@@ -178,6 +178,11 @@ h3 { font-size: 22px; line-height: 30px; margin-bottom: 1px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 1px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
+
+h5.fancy {
+   font-family: 'dancingscript';
+   font-size: 25px;
+}
 .subheader { }
 
 p { margin: 0 0 5px 0; }
@@ -189,8 +194,8 @@ p.lead {
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
-em { font: 15px/30px 'opensans-italic', sans-serif; }
-strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
+em { font: 30px 'dancingscript', sans-serif; }
+strong, b { font: 30px 'dancingscript', sans-serif; }
 small { font-size: 11px; line-height: inherit; }
 
 /*	Blockquotes */
@@ -474,7 +479,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-   font: 16px/30px 'opensans-bold', sans-serif;
+   font: 16px/30px 'economica-bold', sans-serif;
    background: #53c0a0;
    display: inline-block;
 	text-decoration: none;

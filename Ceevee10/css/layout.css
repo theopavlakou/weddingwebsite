@@ -167,10 +167,10 @@ section {
 
 /* nav-wrap */
 #nav-wrap {
-   font: 13px 'opensans-bold', sans-serif;
+   font: 20px 'economica-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
    margin: 0 auto;
    z-index: 100;
    position: fixed;
