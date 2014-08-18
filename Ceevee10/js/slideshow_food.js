@@ -1,9 +1,9 @@
 var imageFood = new Array; 
 numberImagesFood = 4;
-imageFood[0] = "images/souvlaki.jpg"; 
-imageFood[1] = "images/fish_meze.JPG"; 
-imageFood[2] = "images/meze.jpg"; 
-imageFood[3] = "images/koupes.jpg"; 
+imageFood[0] = "images/food/souvlaki.jpg"; 
+imageFood[1] = "images/food/fish_meze.JPG"; 
+imageFood[2] = "images/food/meze.jpg"; 
+imageFood[3] = "images/food/koupes.jpg"; 
 var imageTitleFood = new Array;
 imageTitleFood[0] = "Souvlakia"
 imageTitleFood[1] = "Fish Meze"

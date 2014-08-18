@@ -1,12 +1,14 @@
 var imageBeach = new Array; 
-numberImagesBeach = 3;
-imageBeach[0] = "images/nissi_beach_2.jpg"; 
-imageBeach[1] = "images/konnos_bay.JPG"; 
-imageBeach[2] = "images/figTreeBay.jpg"; 
+numberImagesBeach = 4;
+imageBeach[0] = "images/beaches/nissi_beach_2.jpg"; 
+imageBeach[1] = "images/beaches/konnos_bay.JPG"; 
+imageBeach[2] = "images/beaches/figTreeBay.jpg"; 
+imageBeach[3] = "images/beaches/cape_greco.jpg"; 
 var imageTitleBeach = new Array;
 imageTitleBeach[0] = "Nissi Beach (Ayia Napa)"
 imageTitleBeach[1] = "Konnos Bay (Protaras)"
 imageTitleBeach[2] = "Fig Tree Bay (Protaras)"
+imageTitleBeach[3] = "Cape Greco (Ayia Napa)"
 var presentImageBeach = 0; 
 
 function alterImageBeaches(alter) { 
