@@ -60,11 +60,11 @@ header .banner-text h1 {
    font: 100px/1.1em 'economica-bold', sans-serif;
    color: #fff;
    letter-spacing: -1px;
-   margin: 0 auto 1px auto;
+   margin: 0 auto 0px auto;
    text-shadow: 2px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 26px/1.9em 'dancingscript', sans-serif;
+   font: 25px/1.9em 'dancingscript', sans-serif;
    color: #FFFFFF;
    margin: 0 auto;
    width: 70%;
