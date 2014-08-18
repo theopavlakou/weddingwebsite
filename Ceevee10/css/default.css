@@ -469,8 +469,17 @@ img {
    height: auto;
    z-index: 1;
 }
-img.pull-right { margin: 12px 0px 0px 18px; }
-img.pull-left { margin: 12px 18px 0px 0px; }
+img.small-height {
+    margin: 5px 18px 0px 0px;
+    width: 100%;
+
+}
+.imagecontainer {
+   overflow: hidden;
+   width: 100%;
+}
+img.pull-right { margin: 5px 0px 0px 18px; }
+img.pull-left { margin: 5px 18px 0px 0px; }
 
 /*  6. Buttons  --------------------------------------------------------- */
 
