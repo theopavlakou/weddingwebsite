@@ -147,14 +147,19 @@ html {
 
 body {
    background: #fff;
-   font-family: 'opensans-regular', sans-serif;
+   font-family: 'economica-regular', sans-serif;
    font-weight: normal;
-   font-size: 15px;
+   font-size: 20px;
    line-height: 30px;
 	color: #838C95;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
+}
+
+.fancy {
+   font-family: 'dancingscript';
+   font-size: 30px;
 }
 
 /*  2. Typography
@@ -163,7 +168,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
-   /*font-family: 'opensans-bold', sans-serif;*/
    font-family: 'economica-bold', sans-serif;
    font-weight: normal;
 }
@@ -179,7 +183,7 @@ h6 { font-size: 14px; line-height: 30px; }
 p { margin: 0 0 5px 0; }
 p img { margin: 0; }
 p.lead {
-   font: 19px/36px 'opensans-light', sans-serif;
+   font: 19px/36px 'economica-regular', sans-serif;
    margin-bottom: 18px;
 }
 
