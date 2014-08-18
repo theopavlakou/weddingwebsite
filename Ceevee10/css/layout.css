@@ -940,21 +940,21 @@ call-to-action .button {
 
 footer {
    padding-top: 48px;
-   margin-bottom: 48px;
+   margin-bottom: 0px;
    color: #303030;
     /* TODO Add background image fixed like background in main text*/
-    /*background: url(../images/koupes.jpg) no-repeat left bottom fixed; 
+    background: #d1d1d1 no-repeat left bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
 footer a, footer a:visited { color: #ffffff; }
-footer a:hover, footer a:focus { color: #98ffcc; }
+footer a:hover, footer a:focus { color: #a9f7dc; }
 
 /* copyright */
 footer .copyright {
