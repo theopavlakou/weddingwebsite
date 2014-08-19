@@ -31,7 +31,7 @@ e. Others
 @import url("font-awesome/css/font-awesome.min.css");
 @font-face {
    font-family: "dancingscript";
-   src: url("fonts/dancing-script-ot/DancingScript-Regular.otf");
+   src: url("./fonts/dancing-script-ot/DancingScript-Regular.otf");
 }
 
 /* ------------------------------------------------------------------
@@ -668,10 +668,11 @@ input[type="checkbox"] { display: inline; }
 
 .column, .columns {
    position: relative;
-   padding: 0 20px;
+   padding: 0 3px;
    min-height: 1px;
    float: left;
 }
+
 .column.centered, .columns.centered  {
     float: none;
     margin: 0 auto;
