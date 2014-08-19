@@ -304,11 +304,16 @@ a, a:visited {
    text-decoration: none;
    outline: 0;
    color: #53c0a0;
+   font-family: "economica-bold", sans-serif;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
+}
+a strong {
+   font-family: "economica-bold", sans-serif;
+   font-size: 20px;
 }
 a:hover, a:focus { color: #a9f7dc; }
 p a, p a:visited { line-height: inherit; }
