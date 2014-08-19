@@ -481,6 +481,14 @@ img.small-height {
 img.pull-right { margin: 5px 0px 0px 18px; }
 img.pull-left { margin: 5px 18px 0px 0px; }
 
+img.slideshow {
+   margin: 5px 18px 0px 0px;  
+   height: 300px;
+   width: 100%;
+   padding: 0px 0px 0px 0px;
+   overflow: hidden;
+}
+
 /*  6. Buttons  --------------------------------------------------------- */
 
 .button,
@@ -497,6 +505,7 @@ input[type="button"] {
    color: #fff;
 	padding: 12px 20px;
 	margin-bottom: 18px;
+   margin-top: 0px;
    border: none;
    cursor: pointer;
    height: auto;
@@ -736,6 +745,7 @@ input[type="checkbox"] { display: inline; }
 .row .pull-10     { right: 83.33333%; }
 .row .push-11     { left: 91.66667%; }
 .row .pull-11     { right: 91.66667%; }
+
 
 /* block grids
 --------------------------------------------------------------------- */
