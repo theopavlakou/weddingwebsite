@@ -33,7 +33,15 @@ e. Others
    font-family: "dancingscript";
    src: url("./fonts/dancing-script-ot/DancingScript-Regular.otf");
 }
+@font-face {
+   font-family: "economica-bold";
+   src: url("./fonts/economica/Economica-Bold-OTF.otf");
+}
 
+@font-face {
+   font-family: "economica-regular";
+   src: url("./fonts/economica/Economica-Regular-OTF.otf");
+}
 /* ------------------------------------------------------------------
 /* b. Reset
       Adapted from:
