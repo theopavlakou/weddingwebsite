@@ -189,9 +189,11 @@
    </section>
 
    <!-- RSVP -->
+   
    <section id="rsvp" style="padding: 50px 0 10px;">
       <!-- RSVP -->
       <!-- Check if all inputs have been entered correctly -->
+      <!--
       <script>
       function isValidText(text_input, element_id) {
          if (text_input == "" || text_input == null) {
@@ -252,13 +254,22 @@
          return valid;
       }
       </script>
-
+   -->
 
       <!-- RSVP -->
       <div class="row add-bottom">
-         <div class="twelve columns add-bottom">
+         <div class="twelve columns add-bottom" >
             <h1>Join us?</h1>
-            <!-- Must add script here-->
+            <div class = "twelve columns add-bottom">
+               If you'd like to join us then send us an email at:
+               <br>
+               <div style="font-size: 50px; margin-left: auto; margin-right: auto; width: 50%; margin-top: 20px;">
+                  theoandpamela@gmail.com
+               </div>
+            </div>
+            Just send us your name and who else will be coming with you, assuming they're invited (this isn't a typical Cypriot wedding i.e. no Bring Your Own Guest Unlimited Passes).
+            <!--
+
             <div class="six columns add-bottom">
                <form name="rsvp_form" action="cgi-bin/rsvp_handler.py" method="post" onsubmit="return validateForm()">
                   First Name: <input type="text" name="firstname" id="firstname">
@@ -268,6 +279,7 @@
                   <input type="submit" value="Count me in!">
                </form>
             </div>
+         -->
             <!-- TODO Shall we get rid of this? -->
             <!-- <div class="six columns add-bottom">
                <img width="1000" height="1000" class="pull-left" alt="sample-image" src="images/join_us.JPG"> -->
@@ -452,32 +464,27 @@
 
    <!-- Gift ideas -->
    <section id="giftideas" style="padding: 50px 0 10px; ">
-      <!-- RSVP -->
       <div class="row add-bottom">
          <div class="twelve columns add-bottom centered">
             <h1>Want to buy us a gift?</h1>
-            <p>If you would like to get us something nice, we have made a list of ideas here that could help you. But whether you bring us a truck-load of <strong>cash</strong> or the <strong>smile</strong> that God blessed you with, we'll be happy if you're there :) </p> 
-            <ul class="circle">
-               <!-- TODO Add Amazon links but must have a way to check off people who have already bought the gift -->
-               <!-- TODO Possibly make these images instead that are also links -->
-               <li><a href="#home">Toaster</a></li>
-               <li><a href="#home">Kettle</a></li>
-               <li><a href="#home">Pan Set</a></li>
-               <li><a href="#home">Vacuum Cleaner</a></li>
-               <li><a href="#home">Fridge</a></li>
-               <li><a href="#home">Knife Set</a></li>
-               <li><a href="#home">Cutlery Set</a></li>
-               <li><a href="#home">Blender</a></li>
-               <li><a href="#home">Pressure Cooker</a></li>
-               <li><a href="#home">Television</a></li>
-            </ul>
-            <!-- TODO include a photo of Pamela and I holding a list of gifts that people could possibly bring --> 
-            <!-- <img width="970" class="pull-left" alt="sample-image" src="images/gift.jpg"> -->
-            <div class ="giftIdeas">
-               <div class = "six columns add-bottom">
-                  <h1>John Lewis</h1>
-               </div>
+            <p>If you would like to get us something nice, we have made various gift lists on the following websites. But whether you bring us a truck-load of <strong>cash</strong> or the <strong>smile</strong> that God blessed you with, we'll be happy if you're there :) </p> 
+
+            <div class="four columns add-bottom">
+               <img class="john-lewis" src="images/Logos/john-lewis-logo-2.jpg">
+               <div style="margin-left: auto; margin-right: auto; width: 50%">Gift List No.: 607291 </div>
             </div>
+            <div class="four columns add-bottom">
+               <img class="debenhams" src="images/Logos/debenhams-logo-2.jpg">
+               <div style="margin-left: auto; margin-right: auto; width: 50%">Gift List No.: 607291 </div>
+
+            </div>
+            <div class="four columns add-bottom">
+               <img class="amazon" src="images/Logos/amazon-logo.jpg">
+               <div style="margin-left: auto; margin-right: auto; width: 50%">Gift List No.: 607291 </div>
+            
+            </div>
+            <!-- TODO include a photo of Pamela and I holding a list of gifts that people could possibly bring --> 
+
          </div>
          <hr />
       </div>

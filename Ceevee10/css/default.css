@@ -509,6 +509,24 @@ img.slideshow {
    overflow: hidden;
 }
 
+img.john-lewis {
+   margin-top:5px;
+   width:100%;
+   margin-right: auto;
+   margin-left: auto;
+}
+img.debenhams {
+   margin-top:5px;
+   width:100%;
+   margin-right: auto;
+   margin-left: auto;
+}
+img.amazon {
+   margin-top:5px;
+   width:100%;
+   margin-right: auto;
+   margin-left: auto;
+}
 /*  6. Buttons  --------------------------------------------------------- */
 
 .button,
