@@ -948,7 +948,7 @@ footer {
    margin-bottom: 0px;
    color: #303030;
     /* TODO Add background image fixed like background in main text*/
-    background: #d1d1d1 no-repeat left bottom fixed; 
+    background: #ffffff no-repeat left bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
